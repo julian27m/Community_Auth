@@ -1,4 +1,4 @@
-package com.example.community_auth;
+package com.example.community_auth.model;
 
 import android.content.Intent
 import android.graphics.drawable.ColorDrawable
@@ -15,6 +15,8 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.developer.gbuttons.GoogleSignInButton
+import com.example.community_auth.view.MainActivity
+import com.example.community_auth.R
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions

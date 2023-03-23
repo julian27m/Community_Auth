@@ -47,4 +47,18 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 
+    //viewModel
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    //Connection between activity and viewModel
+    //LiveData
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:2.3.1"
+    //Fragment
+    implementation "androidx.fragment:fragment-ktx:1.3.2"
+    //Activity
+    implementation "androidx.activity:activity-ktx:1.2.2"
+
+    //Navigation
+    implementation "androidx.navigation:navigation-fragment-ktx:2.3.5"
+    implementation "androidx.navigation:navigation-ui-ktx:2.3.5"
+
 }

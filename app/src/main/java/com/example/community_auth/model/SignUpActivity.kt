@@ -1,4 +1,4 @@
-package com.example.community_auth;
+package com.example.community_auth.model;
 
 import android.content.Intent
 import android.os.Bundle
@@ -8,6 +8,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.community_auth.R
 import com.google.firebase.auth.FirebaseAuth
 
 class SignUpActivity: AppCompatActivity() {
